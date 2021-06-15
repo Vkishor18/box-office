@@ -13,6 +13,7 @@ const Home = () => {
   const onInputChange = ev => {
     setInput(ev.target.value);
   };
+
   const onSearch = () => {
     apiGet(`/search/${searchOption}?q=${input}`).then(result => {
       setResults(result);
