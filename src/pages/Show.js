@@ -8,8 +8,6 @@ import Cast from '../components/show/Cast';
 import { ShowPageWrapper , InfoBlock } from './show.styled';
 import { useShow } from '../misc/custom-hooks';
 
-
-
 const Show = () => {
   const { id } = useParams();
   
